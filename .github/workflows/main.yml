@@ -1,15 +1,15 @@
 ##################################################
-# Run Mr Coxall's Super Linter against code base #
+# Run Super Linter against code base #
 ##################################################
 
 ---
-name: Mr Coxall's Super Linter
+name: Super Linter
 
 on: [push, pull_request]
 
 jobs:
   run-linters:
-    name: Mr Coxall's Super Linter
+    name: Super Linter
     runs-on: ubuntu-latest
 
     steps:
